@@ -1,9 +1,8 @@
 import mechanicalsoup as msoup
 
 class GIMScraper:
+    """Class used to encapsulate web scraper for the UNS GIM web page (http://gim.ftn.uns.ac.rs)
     """
-        Class used encapsulate web scraper for the UNS GIM web page (http://gim.ftn.uns.ac.rs)
-        """
 
     def __init__(self, username: str, password: str) -> None:
         self.__username = username
